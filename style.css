@@ -147,19 +147,27 @@ span{
 /**css for hero section**/
 
 .hero-section{   
-    height:350px;
+    background-image: url("/img/hero_img2.jpg");
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height:488px;
     display:flex;
     align-items:flex-end;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
     }
-.hero_img{
-    width: 98vw;
-    height: 0vh;
+/* .hero_img{
+    width: 1200px;
+    height: 500px;
     position: absolute;
     z-index: -1;
     top: 0;
-}
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
 .hero-msg{
     background-color:white;
     color:#0F1111;
@@ -168,7 +176,7 @@ span{
     align-items: center;
     justify-content:center;
     width:96%;
-    margin-bottom:20px;
+    margin-bottom:50px;
     /* position: absolute; */
 }
 .hero-msg a{
