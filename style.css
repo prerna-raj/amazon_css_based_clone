@@ -153,6 +153,7 @@ span{
     align-items:flex-end;
     justify-content: center;
     }
+    
 .hero-msg{
     background-color:white;
     color:#0F1111;
@@ -161,6 +162,7 @@ span{
     justify-content:center;
     width:96%;
     margin-bottom:20px;
+    /* position: absolute; */
 }
 .hero-msg a{
     color:#007185;
