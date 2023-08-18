@@ -146,22 +146,26 @@ span{
 }
 /**css for hero section**/
 
-.hero-section{
-    background-image:url(/hero_img.jpg) ;
-    background-position:top;
-    background-size:cover;
-    background-repeat: no-repeat;
+.hero-section{   
     height:350px;
     display:flex;
     align-items:flex-end;
     justify-content: center;
+    position: relative;
     }
-    
+.hero_img{
+    width: 98vw;
+    height: 0vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
 .hero-msg{
     background-color:white;
     color:#0F1111;
     height:40px;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content:center;
     width:96%;
     margin-bottom:20px;
