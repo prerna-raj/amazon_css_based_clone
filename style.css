@@ -147,7 +147,7 @@ span{
 /**css for hero section**/
 
 .hero-section{   
-    background-image: url("/img/hero_img2.jpg");
+    background-image: url("hero_img.jpg");
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
